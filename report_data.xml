@@ -1,0 +1,1398 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<osdmAllEntities:Entities xmlns:osdmAllEntities="http://oracle.com/datamodeler/reports/entities">
+   <osdmAllEntities:ReportCaption>All Entities Details</osdmAllEntities:ReportCaption>
+   <osdmAllEntities:CompanyName/>
+   <osdmAllEntities:UsePageBreaks>true</osdmAllEntities:UsePageBreaks>
+   <osdmAllEntities:DesignName>mid term</osdmAllEntities:DesignName>
+   <osdmAllEntities:VersionDate>23.06.2022 04:36:18</osdmAllEntities:VersionDate>
+   <osdmAllEntities:ModelName>Logical</osdmAllEntities:ModelName>
+   <osdmAllEntities:EntitiesCollection>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>ASYNCHRONOUS TRAINING</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>F6E60082-22F7A9C8D89C</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.ASYNCHRONOUS_TRAINING</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>6</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>asynchronous training id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>asynchronous training name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (150) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>asynchronous training description</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (250) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>asynchronous training CEUs</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>FLOAT</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>asynchronous training cost</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>MONEY</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>6</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>asynchronous training id</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier/>
+               <osdmAllEntities:ElementName>asynchronous training id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SPEAKER</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>CANDIDATE</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>7089D65D-D2EB56491D87</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.CANDIDATE</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>8</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate designation</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate qualification</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate city</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>6</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate state</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>7</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate country</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>8</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate zip</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>NUMERIC</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>CANDIDATE PK</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>candidate email</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls into</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>ENROLLMENT</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>0B935678-C334E085CAB1</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.ENROLLMENT</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>6</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>enrollment id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>asynchronous training id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>exam prep id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>supervision id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>6</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>candidate email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>enrollment idv1</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>enrollment id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SUPERVISION</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>CANDIDATE</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls into</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>QUIZ</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>taken by</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>takes</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>0..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying>Y</osdmAllEntities:Identifying>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>PAYMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>paid</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>paid by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>0..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SYNCHRONOUS TRAINING</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ASYNCHRONOUS TRAINING</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>EXAM PREP</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>EXAM PREP</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>CD5958C1-3BF5125E37FB</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.EXAM_PREP</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>4</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>exam prep id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>exam prep date</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Date</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>exam prep cost</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>MONEY</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>exam prep idv1</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>exam prep id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SPEAKER</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>HAND OUT</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>4A889A0E-65655955E823</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.HAND_OUT</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>4</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>hand out name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>hand out date</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Date</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>HAND OUT PK</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>speaker email</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SPEAKER</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>given by</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>gives</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..1:1..*</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying>Y</osdmAllEntities:Identifying>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SYNCHRONOUS TRAINING</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>belongs to</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>for</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>PAYMENT</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>4BD20D96-23DEC9E05F8A</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.PAYMENT</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>4</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>payment id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>payment amout</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>MONEY</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>payment date</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Date</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>enrollment id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>payment idv1</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>payment id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>paid</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>paid by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>0..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>QUIZ</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>A1C24FA9-5453E8811AA6</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.QUIZ</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>5</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>quiz name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (150) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>quiz taken date</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Date</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>quiz result</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (50) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>quiz total</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Integer</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>enrollment id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>QUIZ PK</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>enrollment id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>taken by</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>takes</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>0..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying>Y</osdmAllEntities:Identifying>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>SPEAKER</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>4A222431-327BD9379082</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.SPEAKER</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>9</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (50) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker designation</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (50) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker qualification</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker phone</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>NUMERIC</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>6</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker city</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>7</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker state</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>8</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker country</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>9</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker zip</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>NUMERIC</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>SPEAKER PK</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>speaker email</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>HAND OUT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>given by</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>gives</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..1:1..*</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying>Y</osdmAllEntities:Identifying>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SYNCHRONOUS TRAINING</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>0..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ASYNCHRONOUS TRAINING</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SUPERVISION</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>EXAM PREP</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>SUPERVISION</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>5594EADF-A0084F7CA765</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.SUPERVISION</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>6</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>supervision id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK>P</osdmAllEntities:PK>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>supervision name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (150) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>supervision date</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Date</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>supervision description</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (250) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>supervision cost</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>MONEY</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>6</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>supervion id</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier>Y</osdmAllEntities:PrimaryIdentifier>
+               <osdmAllEntities:ElementName>supervision id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SPEAKER</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+      <osdmAllEntities:EntityDetails>
+         <osdmAllEntities:EntityName>SYNCHRONOUS TRAINING</osdmAllEntities:EntityName>
+         <osdmAllEntities:EncodedEntityName>9A3A12C7-3563F3552FE4</osdmAllEntities:EncodedEntityName>
+         <osdmAllEntities:Abbreviation/>
+         <osdmAllEntities:ClassificationTypeName/>
+         <osdmAllEntities:ObjectTypeName/>
+         <osdmAllEntities:SuperType/>
+         <osdmAllEntities:Synonyms/>
+         <osdmAllEntities:MappedTablesCollection>
+            <osdmAllEntities:MappedTablesDetails>
+               <osdmAllEntities:TableName>Relational_1.SYNCHRONOUS_TRAINING</osdmAllEntities:TableName>
+            </osdmAllEntities:MappedTablesDetails>
+         </osdmAllEntities:MappedTablesCollection>
+         <osdmAllEntities:QuantitativeInfoCollection>
+            <osdmAllEntities:NumberOfAttributes>7</osdmAllEntities:NumberOfAttributes>
+            <osdmAllEntities:NumberOfRowsMin>0</osdmAllEntities:NumberOfRowsMin>
+            <osdmAllEntities:NumberOfRowsMax>9999999</osdmAllEntities:NumberOfRowsMax>
+            <osdmAllEntities:ExpectedNumberOfRows>0</osdmAllEntities:ExpectedNumberOfRows>
+            <osdmAllEntities:ExpectedGrowth>0</osdmAllEntities:ExpectedGrowth>
+            <osdmAllEntities:GrowthInterval>Year</osdmAllEntities:GrowthInterval>
+         </osdmAllEntities:QuantitativeInfoCollection>
+         <osdmAllEntities:AttributesCollection>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>1</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training id</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>2</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training name</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (150) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>3</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training date</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>Date</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>4</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training description</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M/>
+               <osdmAllEntities:DataType>VARCHAR (250) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>5</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training CEUs</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>FLOAT</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>6</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>synchronous training cost</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK/>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>MONEY</osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+            <osdmAllEntities:AttributeDetails>
+               <osdmAllEntities:Sequence>7</osdmAllEntities:Sequence>
+               <osdmAllEntities:AttributeName>speaker email</osdmAllEntities:AttributeName>
+               <osdmAllEntities:PK/>
+               <osdmAllEntities:FK>F</osdmAllEntities:FK>
+               <osdmAllEntities:M>Y</osdmAllEntities:M>
+               <osdmAllEntities:DataType>VARCHAR (100) </osdmAllEntities:DataType>
+               <osdmAllEntities:DataTypeKind>LT</osdmAllEntities:DataTypeKind>
+               <osdmAllEntities:DomainName/>
+               <osdmAllEntities:Formula/>
+               <osdmAllEntities:PreferredAbbreviation/>
+               <osdmAllEntities:AttributeSynonyms/>
+            </osdmAllEntities:AttributeDetails>
+         </osdmAllEntities:AttributesCollection>
+         <osdmAllEntities:IdentifiersCollection>
+            <osdmAllEntities:IdentifierDetails>
+               <osdmAllEntities:IdentifierName>synchronous training id</osdmAllEntities:IdentifierName>
+               <osdmAllEntities:PrimaryIdentifier/>
+               <osdmAllEntities:ElementName>synchronous training id</osdmAllEntities:ElementName>
+               <osdmAllEntities:ElementType>A</osdmAllEntities:ElementType>
+               <osdmAllEntities:SourceLabel/>
+               <osdmAllEntities:TargetLabel/>
+            </osdmAllEntities:IdentifierDetails>
+         </osdmAllEntities:IdentifiersCollection>
+         <osdmAllEntities:RelationshipsCollection>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>HAND OUT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>belongs to</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>for</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>SPEAKER</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>organizes</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>organized by</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>0..*:1..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+            <osdmAllEntities:RelationshipDetails>
+               <osdmAllEntities:SourceName>ENROLLMENT</osdmAllEntities:SourceName>
+               <osdmAllEntities:SourceRole>enrolls into</osdmAllEntities:SourceRole>
+               <osdmAllEntities:TargetRole>enrolls</osdmAllEntities:TargetRole>
+               <osdmAllEntities:InArc/>
+               <osdmAllEntities:Cardinality>1..*:0..1</osdmAllEntities:Cardinality>
+               <osdmAllEntities:DominantRole/>
+               <osdmAllEntities:Identifying/>
+               <osdmAllEntities:Transferable>Y</osdmAllEntities:Transferable>
+            </osdmAllEntities:RelationshipDetails>
+         </osdmAllEntities:RelationshipsCollection>
+      </osdmAllEntities:EntityDetails>
+   </osdmAllEntities:EntitiesCollection>
+</osdmAllEntities:Entities>

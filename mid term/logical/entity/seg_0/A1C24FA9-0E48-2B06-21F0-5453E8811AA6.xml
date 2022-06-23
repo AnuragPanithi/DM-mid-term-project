@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1C24FA9-0E48-2B06-21F0-5453E8811AA6" name="QUIZ">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 18:20:54 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="quiz name" id="E832E931-1C38-DE73-74D6-A343EBD6EE14">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:56:42 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quiz taken date" id="518D7265-675D-2265-96B0-5CB6BE4E4A11">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:56:59 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quiz result" id="C0768466-D1EE-B744-9CFC-5E3D98CFD818">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:57:22 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quiz total" id="C8680980-F792-7B80-FCD1-5DB128090DBE">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:57:52 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enrollment id" id="990990D9-5CCB-8065-9EF1-E47393DE1B81">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:26:51 UTC</createdTime>
+<generatorID>FB48BAEE-753D-D04B-466C-DFE8EAFF678C</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<referedAttribute>E938B2DD-11E2-3A9C-3367-7CFB3DC6CE65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13266887-BC76-2F34-CE00-CE742316EA8D" name="QUIZ PK">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:26:51 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>990990D9-5CCB-8065-9EF1-E47393DE1B81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

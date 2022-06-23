@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B935678-16A5-D4E2-F7DD-C334E085CAB1" name="ENROLLMENT">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 18:20:12 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="enrollment id" id="E938B2DD-11E2-3A9C-3367-7CFB3DC6CE65">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:24:19 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="synchronous training id" id="0BCF739B-56C6-6E6A-570B-0B18CAB07B44">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:21:44 UTC</createdTime>
+<generatorID>35FA10B6-DB5E-52FF-C19E-5E791A44AD35</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D2674AC6-16C3-78F6-3874-923DF0F92AF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asynchronous training id" id="4D4B81E0-A772-58FF-82F4-AE5B306D7911">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:22:14 UTC</createdTime>
+<generatorID>A53383FA-A994-68B6-F8C8-FE4FFE1713D4</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2355210B-768F-01A3-D483-43CA25138E31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exam prep id" id="2174BC4D-0E43-816D-C066-7D87354F0D7D">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:23:25 UTC</createdTime>
+<generatorID>57AC1CC4-C38A-2021-85BB-BE7C2FAD4718</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>989D4DA0-7DD2-21D8-38FA-8CA9D271A060</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervision id" id="50184B58-CECB-3A6F-381D-0C55AA616803">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:23:53 UTC</createdTime>
+<generatorID>1E7AC2CE-8972-6D48-2463-B3BAB2B48793</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>467C897D-98DC-0DFC-2C0D-1B12E9A99C8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate email" id="1F6B3C46-A694-E463-7EB1-06080720311A">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:26:18 UTC</createdTime>
+<generatorID>5EB242C5-B604-09A7-3CCE-EAA6CB841D90</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<referedAttribute>79A1F5D2-8763-B9E8-6D1E-3D08112C78EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E78F90B-94C3-E0B2-CFBA-89A2A32CDBA4" name="enrollment idv1">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:25:18 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E938B2DD-11E2-3A9C-3367-7CFB3DC6CE65</newElementsIDs>
+<usedAttributes>
+<attributeRef>E938B2DD-11E2-3A9C-3367-7CFB3DC6CE65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

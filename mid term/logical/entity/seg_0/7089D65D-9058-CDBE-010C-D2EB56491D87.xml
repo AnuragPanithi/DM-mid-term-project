@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7089D65D-9058-CDBE-010C-D2EB56491D87" name="CANDIDATE">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 18:19:42 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="candidate name" id="2CE04D57-852F-9928-8124-BEC4FD764904">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:49:35 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate designation" id="AC1FE89D-BE79-4374-34C9-A8444AA3BC69">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:49:56 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate qualification" id="F4868671-1088-3A31-5ED9-83F4EBC91F97">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:50:17 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate email" id="79A1F5D2-8763-B9E8-6D1E-3D08112C78EA">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:50:43 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate city" id="EABD00E2-952B-B44F-CF9D-0F38DFA7F5A7">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:51:09 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate state" id="EA0E30B6-3026-F7AA-E953-13854DC45A84">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:51:33 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate country" id="F0B0AF0B-1985-249A-CA40-CCEF3600101F">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:53:22 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="candidate zip" id="EDDB24AD-6F38-30B4-A10D-24FF700D61CD">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:53:36 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A50BBB7-F190-8CA5-A375-9570A7045D92" name="CANDIDATE PK">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:51:01 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79A1F5D2-8763-B9E8-6D1E-3D08112C78EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

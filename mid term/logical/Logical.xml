@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="620FDF61-BB35-4A00-D4FA-60623E8FF250" mainViewID="45DCC099-6C5C-7865-588E-C3DE8E96F7BF">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 18:10:53 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

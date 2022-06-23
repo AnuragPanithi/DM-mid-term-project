@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD5958C1-62DD-5E9C-E19A-3BF5125E37FB" name="EXAM PREP">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 18:18:05 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="exam prep id" id="989D4DA0-7DD2-21D8-38FA-8CA9D271A060">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:43:16 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exam prep date" id="51DA6837-DE9B-FB67-B6B6-B50D845FD7EE">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:43:23 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exam prep cost" id="E52969DB-583F-18B8-F0A0-241087990B7C">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:43:48 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="speaker email" id="138D5914-800B-B332-9B57-C92AE266E845">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:19:22 UTC</createdTime>
+<generatorID>C7C4C2B4-2952-34B4-F4D4-1E7B57FF5481</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<referedAttribute>287D2EDD-894F-F9F4-67C2-6C2E248124FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="317F73F8-33A9-36A9-C02B-BC55FD009A2D" name="exam prep idv1">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:45:21 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>989D4DA0-7DD2-21D8-38FA-8CA9D271A060</newElementsIDs>
+<usedAttributes>
+<attributeRef>989D4DA0-7DD2-21D8-38FA-8CA9D271A060</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="24E04D69-6F60-0263-3BB0-CC0188E8289E">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:04:07 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<sourcePk>0BA59193-9AA9-22EF-DF35-EB8C4F01B5FF</sourcePk>
+<targetPk>4028B9D3-9567-EF7D-86C0-DE560178BF88</targetPk>
+<identifying>true</identifying>
+<nameOnSource>given by</nameOnSource>
+<nameOnTarget>gives</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4A889A0E-6BC9-0929-C169-65655955E823</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4A222431-3917-6200-8BE0-327BD9379082</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

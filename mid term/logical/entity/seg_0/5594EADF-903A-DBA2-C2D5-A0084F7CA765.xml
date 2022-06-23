@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5594EADF-903A-DBA2-C2D5-A0084F7CA765" name="SUPERVISION">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 18:17:46 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="supervision id" id="467C897D-98DC-0DFC-2C0D-1B12E9A99C8C">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 19:13:00 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervision name" id="FAB532A4-7889-01F8-4F24-649B695ECDA0">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 19:13:18 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervision date" id="4F0F624F-8632-05B3-AB63-9A452FFDA633">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 19:14:10 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervision description" id="7AFB1AFC-F958-5557-87FF-CC5D6726AA87">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 19:14:37 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervision cost" id="886B5199-DBBE-CBA7-837B-29399B87119B">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:40:54 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="speaker email" id="923D0555-A8F9-B98C-14C1-9BA0405411A3">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 21:13:53 UTC</createdTime>
+<generatorID>D5D7E086-6C20-06BE-B940-E56FF0CF5EA0</generatorID>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<referedAttribute>287D2EDD-894F-F9F4-67C2-6C2E248124FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C2388F2-8415-F7C1-CB58-848FF1C8D93A" name="supervion id">
+<createdBy>apanithi@unomaha.edu</createdBy>
+<createdTime>2022-06-23 20:42:34 UTC</createdTime>
+<ownerDesignName>mid term</ownerDesignName>
+<engineerTo>
+<item key="C8AB2BAC-4EBF-7268-6747-CB6D596E249A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>467C897D-98DC-0DFC-2C0D-1B12E9A99C8C</newElementsIDs>
+<usedAttributes>
+<attributeRef>467C897D-98DC-0DFC-2C0D-1B12E9A99C8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
